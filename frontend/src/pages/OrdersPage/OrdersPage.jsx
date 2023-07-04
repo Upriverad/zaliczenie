@@ -49,7 +49,7 @@ export const OrdersPage = () => {
             {InfoOrders.map((i) => (
               <li key={i.id}>
                 <p>
-                  <b>CUSTOMER:</b>
+                  <b>CUSTOMER: </b>
                   {i.customer_id}
                 </p>
                 <p>
@@ -60,7 +60,7 @@ export const OrdersPage = () => {
                     .join(", ")}
                 </p>
                 <p>
-                  <b>ITEMS:</b>
+                  <b>ITEMS: </b>
                   {i.order_items.join(", ")}
                 </p>
               </li>
