@@ -33,7 +33,6 @@ export const ProductsPage = () => {
           <h2 className="text-3xl font-bold tracking-tight">Products</h2>
         </div>
         <div className="hidden h-full flex-1 flex-col space-y-8 md:flex">
-
           
         <ul>
             {InfoProducts.map((i) => (

@@ -21,7 +21,8 @@ PRODUCTS: ProductStorageType = {
     9: Product(name="Szalik", color="Bialy", description="przedmiot", price="40zl", id=9),
     10: Product(name="Telewizor", color="Czerwony", description="przedmiot", price="1zl", id=10),
     11: Product(name="Teczka", color="Czarna", description="przedmiot", price="10zl", id=11),
-}
+    
+    }
 
 ORDERS: OrderStorageType = {
      0: Order(
