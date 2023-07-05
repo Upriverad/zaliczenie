@@ -1,10 +1,10 @@
 from functools import lru_cache
 
-from .schema import Product, Order
+from .schema import Customer, Product, Order
 
-CustomerStorageType = {}
-OrderStorageType = {}
-ProductStorageType = {}
+CustomerStorageType = dict[int, Customer]
+OrderStorageType = dict[int, Order]
+ProductStorageType = dict[int, Product]
 
 CUSTOMERS: CustomerStorageType = {}
 
