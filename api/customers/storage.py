@@ -7,6 +7,7 @@ OrderStorageType = {}
 ProductStorageType = {}
 
 CUSTOMERS: CustomerStorageType = {}
+
 PRODUCTS: ProductStorageType = {
     0: Product(name="Taczka", color="Biala", description="przedmiot", price="10zl", id=0),
     1: Product(name="Bielizna", color="Czarna", description="przedmiot", price="2zl", id=1),
